@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IN	ch01/word_count_ex1-12.c	/^#define IN /;"	d	file:
+IN	ch01/word_counting.c	/^#define IN /;"	d	file:
+OUT	ch01/word_count_ex1-12.c	/^#define OUT /;"	d	file:
+OUT	ch01/word_counting.c	/^#define OUT /;"	d	file:
+main	ch01/blank_tab_newline_ex18.c	/^int main(int argc, char const *argv[])$/;"	f
+main	ch01/char_count.c	/^int main(int argc, char const *argv[])$/;"	f
+main	ch01/count_with_array.c	/^main(int argc, char const *argv[])$/;"	f
+main	ch01/line_count.c	/^int main(int argc, char const *argv[])$/;"	f
+main	ch01/power.c	/^main(){$/;"	f
+main	ch01/print_single_blank.c	/^int main(int argc, char const *argv[])$/;"	f
+main	ch01/replace_t_b_slash_ex1_10.c	/^int main(int argc, char const *argv[])$/;"	f
+main	ch01/word_count_ex1-12.c	/^main(int argc, char const *argv[])$/;"	f
+main	ch01/word_counting.c	/^main(int argc, char const *argv[])$/;"	f
+power	ch01/power.c	/^int power(int base, int n){$/;"	f
