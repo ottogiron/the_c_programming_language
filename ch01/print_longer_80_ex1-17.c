@@ -2,6 +2,11 @@
 #define MAX_LEN 3000
 int gettline(char line[], int max);
 
+
+
+
+
+
 int main() 
 {
   	int l;
@@ -9,7 +14,9 @@ int main()
 
 	while( (l = gettline(line, MAX_LEN)) > 0 ){
 		/* line lenght must be greater than 80 */
-		printf("%s size:%d\n", line, l);
+		if ( l > 80 ){
+			printf("%s len:%d", line, l);				
+		}
 	}				
 	return 0;
 }
