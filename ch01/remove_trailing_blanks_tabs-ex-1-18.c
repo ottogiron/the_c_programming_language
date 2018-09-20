@@ -24,11 +24,11 @@ int gettline(char line[], int max)
 	for (i = 0; i < max -1 && (c = getchar()) != EOF && c != '\n'; ++i ){
 		line[i] = c;
 
+	}
 		if (c == '\n'){
 			line[c] = c;
 			++i;
 		}
-	}
 	return i;
 }
 
