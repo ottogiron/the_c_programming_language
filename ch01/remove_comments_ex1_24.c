@@ -21,11 +21,11 @@ int main(void) {
 					first_slash = 0;
 					in_asterisk_comment = 0;
 					second_asterisk = 0;
-					putchar('\n');
-				} else if (!first_slash)
-					first_slash = 1;
-				else if (first_slash)
+				} else if (first_slash) {
 					in_line_comment = 1;
+				} else if (!first_slash) {
+					first_slash = 1;
+				}
 			} else if (c == '*') {
 				if (in_asterisk_comment)
 					second_asterisk = 1;
