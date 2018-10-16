@@ -16,6 +16,10 @@ mattis ante vitae magna laoreet consectetur.
 int main(void) {
 	// this is another comment
 	printf("%s\n", "hello otto remove the comments");  // this is a comment
+	int c;
+	c = '/';
+	putchar(c);
+	printf("%s\n", "test embeded //");
 	// a multi line comment here
 	// remove it
 	return 0;
