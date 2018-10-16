@@ -10,19 +10,16 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (), 
- *   Organization:  
+ *         Author:  YOUR NAME (),
+ *   Organization:
  *
  * =====================================================================================
  */
 #include <stdlib.h>
 
 /* poewr: raise base to n-th power; n>=0; version 2*/
-int
-main(){
+int main() {
 	int p;
-	for (p = 1; n > 0; --n)
-		p = p * base;
+	for (p = 1; n > 0; --n) p = p * base;
 	return p;
 }
-
